@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+    font-weight: 600;
+}
+
+.UpHat{
+    height: 120px;
+    background-color: rgb(11, 13, 15);
+    display: flex;
+}
+
+#LogoPng{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#LogoTitle{
+    padding-left: 5px;
+
+    font-size: 100px;
+    color: rgb(226, 42, 9);
+    font-family: 'Righteous', cursive;
+
+    box-sizing: border-box;
+}
+
+span{
+    color: rgb(240, 237, 233);
+}
+
+.MainNav{
+    background-color: rgb(226, 42, 9);
+    font-family: 'Play', sans-serif;
+
+    display: flex;
+}
+
+.NavItem{
+    font-size: 22px;
+    color: rgb(240, 237, 233);
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.NavItem:hover{
+    background-color: rgb(11, 13, 15); 
+}
+
+#ActivePage{
+    background-color: rgb(11, 13, 15);
+}
+
+.MainContainer{
+    display: flex;
+    background-color: rgb(240, 237, 233);
+}
+
+#MainPhoto{
+    margin: 10px;
+}
+
+.TextContainer{
+    display: flex;
+    flex-flow: column;
+    font-family: 'Play', sans-serif;
+    padding-left: 15px;
+}
+
+#GarantList{
+    padding-top: 10px;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(11, 13, 15);
+}
+
+.CreateInfo{
+    color: rgb(240, 237, 233);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+p1{
+    color: rgb(11, 13, 15);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: underline 5px solid rgb(226, 42, 9);
+    font-size: 52px;
+}
+
+p2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+
+/* Страница Рейтинга */
+
+.RatingItem{
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+    border: 3px solid rgb(11, 13, 15);
+    border-radius: 5px;
+
+    display: flex;
+}
+
+.ItemRef:visited{
+    color: rgb(11, 13, 15);
+}
+
+.ItemRef:link{
+    color: rgb(11, 13, 15); 
+}
+
+.RatingItem:hover{
+    border-color: rgb(226, 42, 9) ;
+}
+
+.ItemPhoto{
+    padding: 10px;
+}
+
+.ItemName{
+    font-size: 32px;
+    padding-top: 10px;
+    text-decoration: underline 4px solid rgb(226, 42, 9);   
+}
+
+.ItemTel{
+    padding-top: 25px;
+}
+
+.ItemAdress{
+    padding-top: 3px;
+}
+
+.ItemStat{
+    /* TODO: Временно, переделать оптимально для списка*/  
+    padding-right: 50px;
+    padding-top: 70px;
+    color: rgb(226, 42, 9) ;
+    font-size: 32px;
+    margin-left: auto;
+}
+
+.NotActive{
+    color: rgb(11, 13, 15);
+}
+
+/* Страница Рядом (временное решение)*/
+.Ooops{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Страница ресторана */
+
+.FirstItemContainer{
+    display: flex;
+}
+
+#RestPhoto{
+    margin: 10px;
+}
+
+.RestMainInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#RestName{
+    font-size: 42px;
+    text-decoration: underline 4px solid rgb(226, 42, 9);
+}
+
+.RestStat{
+    margin-top: 7px;
+
+    color: rgb(226, 42, 9) ;
+    font-size: 37px;
+}
+
+.RestInfoContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.RestContact{
+    margin-top: 6px;
+    margin-left: 5px;
+
+    font-size: 24px;
+}
+
+.RestNum{
+    margin-left: 15px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.RestWeb{
+    margin-top: 6px;
+    margin-left: 150px;
+
+    font-size: 24px;
+}
+
+#RestRef{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+#RestRef:visited{
+    color: rgb(226, 42, 9);
+}
+
+.RestWork{
+    margin-top: 20px;
+    margin-left: 5px;
+
+    font-size: 24px;
+}
+
+.TimeContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.RestTime{
+    margin-right: 380px;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.SecondItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 45px;
+    background-color: rgb(11, 13, 15);
+}
+
+#PhotoLeft{
+    transform: rotate(-25deg);
+    padding: 10px;
+    background-color: rgb(240, 237, 233);
+
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+#PhotoRight{
+    transform: rotate(25deg);
+    padding: 10px;
+    background-color: rgb(240, 237, 233);
+
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+#PhotoCenter{
+    padding: 10px;
+    background-color: rgb(240, 237, 233);
+}
+
+.ThirdItemContainer{
+    text-align: center;
+
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 40px;
+
+    background-color: rgb(11, 13, 15);
+    color: rgb(240, 237, 233);
+}
+
+.FourthItemContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#MapInfo{
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+    font-size: 26px;
+}
+
+.RestMap{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(226, 42, 9);
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
