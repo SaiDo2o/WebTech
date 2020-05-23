@@ -1,0 +1,9 @@
+.ProdItem > input + .box{
+    display: none;
+}
+
+.ProdItem > input:checked + .box
+{
+    display: block;
+}
+
